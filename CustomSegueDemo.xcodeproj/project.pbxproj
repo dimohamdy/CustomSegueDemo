@@ -40,7 +40,7 @@
 		3751A1631BA58A240082AB11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3751A1651BA58A240082AB11 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3751A1681BA58A240082AB11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		3751A16E1BA58A250082AB11 /* NavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3751A16E1BA58A250082AB11 /* CustomSegueDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomSegueDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3751A1731BA58A250082AB11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3751A1741BA58A250082AB11 /* NavigationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationTests.m; sourceTree = "<group>"; };
 		3751A1811BA58E360082AB11 /* GreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenViewController.h; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				3751A1551BA58A240082AB11 /* Navigation.app */,
-				3751A16E1BA58A250082AB11 /* NavigationTests.xctest */,
+				3751A16E1BA58A250082AB11 /* CustomSegueDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,9 +153,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3751A1541BA58A240082AB11 /* Navigation */ = {
+		3751A1541BA58A240082AB11 /* CustomSegueDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3751A1781BA58A250082AB11 /* Build configuration list for PBXNativeTarget "Navigation" */;
+			buildConfigurationList = 3751A1781BA58A250082AB11 /* Build configuration list for PBXNativeTarget "CustomSegueDemo" */;
 			buildPhases = (
 				3751A1511BA58A240082AB11 /* Sources */,
 				3751A1521BA58A240082AB11 /* Frameworks */,
@@ -165,14 +165,14 @@
 			);
 			dependencies = (
 			);
-			name = Navigation;
+			name = CustomSegueDemo;
 			productName = Navigation;
 			productReference = 3751A1551BA58A240082AB11 /* Navigation.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3751A16D1BA58A250082AB11 /* NavigationTests */ = {
+		3751A16D1BA58A250082AB11 /* CustomSegueDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3751A17B1BA58A250082AB11 /* Build configuration list for PBXNativeTarget "NavigationTests" */;
+			buildConfigurationList = 3751A17B1BA58A250082AB11 /* Build configuration list for PBXNativeTarget "CustomSegueDemoTests" */;
 			buildPhases = (
 				3751A16A1BA58A250082AB11 /* Sources */,
 				3751A16B1BA58A250082AB11 /* Frameworks */,
@@ -183,9 +183,9 @@
 			dependencies = (
 				3751A1701BA58A250082AB11 /* PBXTargetDependency */,
 			);
-			name = NavigationTests;
+			name = CustomSegueDemoTests;
 			productName = NavigationTests;
-			productReference = 3751A16E1BA58A250082AB11 /* NavigationTests.xctest */;
+			productReference = 3751A16E1BA58A250082AB11 /* CustomSegueDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3751A1501BA58A240082AB11 /* Build configuration list for PBXProject "Navigation" */;
+			buildConfigurationList = 3751A1501BA58A240082AB11 /* Build configuration list for PBXProject "CustomSegueDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -219,8 +219,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3751A1541BA58A240082AB11 /* Navigation */,
-				3751A16D1BA58A250082AB11 /* NavigationTests */,
+				3751A1541BA58A240082AB11 /* CustomSegueDemo */,
+				3751A16D1BA58A250082AB11 /* CustomSegueDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -272,7 +272,7 @@
 /* Begin PBXTargetDependency section */
 		3751A1701BA58A250082AB11 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3751A1541BA58A240082AB11 /* Navigation */;
+			target = 3751A1541BA58A240082AB11 /* CustomSegueDemo */;
 			targetProxy = 3751A16F1BA58A250082AB11 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -411,7 +411,7 @@
 				);
 				INFOPLIST_FILE = NavigationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CustomSegueDemoTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Navigation.app/Navigation";
 			};
 			name = Debug;
@@ -426,7 +426,7 @@
 				);
 				INFOPLIST_FILE = NavigationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CustomSegueDemoTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Navigation.app/Navigation";
 			};
 			name = Release;
@@ -434,7 +434,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3751A1501BA58A240082AB11 /* Build configuration list for PBXProject "Navigation" */ = {
+		3751A1501BA58A240082AB11 /* Build configuration list for PBXProject "CustomSegueDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3751A1761BA58A250082AB11 /* Debug */,
@@ -443,7 +443,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3751A1781BA58A250082AB11 /* Build configuration list for PBXNativeTarget "Navigation" */ = {
+		3751A1781BA58A250082AB11 /* Build configuration list for PBXNativeTarget "CustomSegueDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3751A1791BA58A250082AB11 /* Debug */,
@@ -451,7 +451,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		3751A17B1BA58A250082AB11 /* Build configuration list for PBXNativeTarget "NavigationTests" */ = {
+		3751A17B1BA58A250082AB11 /* Build configuration list for PBXNativeTarget "CustomSegueDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3751A17C1BA58A250082AB11 /* Debug */,
