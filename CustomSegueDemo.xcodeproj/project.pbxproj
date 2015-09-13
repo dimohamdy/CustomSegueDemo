@@ -7,59 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3751A15B1BA58A240082AB11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3751A15A1BA58A240082AB11 /* main.m */; };
-		3751A15E1BA58A240082AB11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3751A15D1BA58A240082AB11 /* AppDelegate.m */; };
-		3751A1611BA58A240082AB11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3751A1601BA58A240082AB11 /* ViewController.m */; };
-		3751A1641BA58A240082AB11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3751A1621BA58A240082AB11 /* Main.storyboard */; };
-		3751A1661BA58A240082AB11 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3751A1651BA58A240082AB11 /* Images.xcassets */; };
-		3751A1691BA58A240082AB11 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3751A1671BA58A240082AB11 /* LaunchScreen.xib */; };
-		3751A1751BA58A250082AB11 /* NavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3751A1741BA58A250082AB11 /* NavigationTests.m */; };
-		3751A1831BA58E360082AB11 /* GreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3751A1821BA58E360082AB11 /* GreenViewController.m */; };
-		3751A1871BA59ADC0082AB11 /* DismissSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3751A1861BA59ADC0082AB11 /* DismissSegue.m */; };
-		3751A18B1BA59B0F0082AB11 /* PresentNavigationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3751A18A1BA59B0F0082AB11 /* PresentNavigationModel.m */; };
+		378D0DF41BA5A13800A8E701 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 378D0DDF1BA5A13700A8E701 /* AppDelegate.m */; };
+		378D0DF51BA5A13800A8E701 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 378D0DE01BA5A13700A8E701 /* LaunchScreen.xib */; };
+		378D0DF61BA5A13800A8E701 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378D0DE21BA5A13700A8E701 /* Main.storyboard */; };
+		378D0DF71BA5A13800A8E701 /* DismissSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 378D0DE61BA5A13800A8E701 /* DismissSegue.m */; };
+		378D0DF81BA5A13800A8E701 /* GreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 378D0DE81BA5A13800A8E701 /* GreenViewController.m */; };
+		378D0DF91BA5A13800A8E701 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 378D0DE91BA5A13800A8E701 /* Images.xcassets */; };
+		378D0DFA1BA5A13800A8E701 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 378D0DEA1BA5A13800A8E701 /* Info.plist */; };
+		378D0DFB1BA5A13800A8E701 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 378D0DEB1BA5A13800A8E701 /* main.m */; };
+		378D0DFC1BA5A13800A8E701 /* PresentNavigationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 378D0DEE1BA5A13800A8E701 /* PresentNavigationModel.m */; };
+		378D0DFD1BA5A13800A8E701 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 378D0DF01BA5A13800A8E701 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		3751A16F1BA58A250082AB11 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3751A14D1BA58A240082AB11 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3751A1541BA58A240082AB11;
-			remoteInfo = Navigation;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		3751A1551BA58A240082AB11 /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3751A1591BA58A240082AB11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3751A15A1BA58A240082AB11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3751A15C1BA58A240082AB11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3751A15D1BA58A240082AB11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3751A15F1BA58A240082AB11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3751A1601BA58A240082AB11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3751A1631BA58A240082AB11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3751A1651BA58A240082AB11 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3751A1681BA58A240082AB11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		3751A16E1BA58A250082AB11 /* CustomSegueDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomSegueDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3751A1731BA58A250082AB11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3751A1741BA58A250082AB11 /* NavigationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationTests.m; sourceTree = "<group>"; };
-		3751A1811BA58E360082AB11 /* GreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenViewController.h; sourceTree = "<group>"; };
-		3751A1821BA58E360082AB11 /* GreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenViewController.m; sourceTree = "<group>"; };
-		3751A1851BA59ADC0082AB11 /* DismissSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissSegue.h; sourceTree = "<group>"; };
-		3751A1861BA59ADC0082AB11 /* DismissSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissSegue.m; sourceTree = "<group>"; };
-		3751A1891BA59B0F0082AB11 /* PresentNavigationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentNavigationModel.h; sourceTree = "<group>"; };
-		3751A18A1BA59B0F0082AB11 /* PresentNavigationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentNavigationModel.m; sourceTree = "<group>"; };
+		3751A1551BA58A240082AB11 /* CustomSegueDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomSegueDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		378D0DDE1BA5A13700A8E701 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		378D0DDF1BA5A13700A8E701 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		378D0DE11BA5A13700A8E701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		378D0DE31BA5A13700A8E701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		378D0DE51BA5A13800A8E701 /* DismissSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissSegue.h; sourceTree = "<group>"; };
+		378D0DE61BA5A13800A8E701 /* DismissSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissSegue.m; sourceTree = "<group>"; };
+		378D0DE71BA5A13800A8E701 /* GreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenViewController.h; sourceTree = "<group>"; };
+		378D0DE81BA5A13800A8E701 /* GreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenViewController.m; sourceTree = "<group>"; };
+		378D0DE91BA5A13800A8E701 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		378D0DEA1BA5A13800A8E701 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		378D0DEB1BA5A13800A8E701 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		378D0DED1BA5A13800A8E701 /* PresentNavigationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentNavigationModel.h; sourceTree = "<group>"; };
+		378D0DEE1BA5A13800A8E701 /* PresentNavigationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentNavigationModel.m; sourceTree = "<group>"; };
+		378D0DEF1BA5A13800A8E701 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		378D0DF01BA5A13800A8E701 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3751A1521BA58A240082AB11 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3751A16B1BA58A250082AB11 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,8 +52,7 @@
 		3751A14C1BA58A240082AB11 = {
 			isa = PBXGroup;
 			children = (
-				3751A1571BA58A240082AB11 /* Navigation */,
-				3751A1711BA58A250082AB11 /* NavigationTests */,
+				378D0DDD1BA5A13700A8E701 /* CustomSegueDemo */,
 				3751A1561BA58A240082AB11 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,73 +60,55 @@
 		3751A1561BA58A240082AB11 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3751A1551BA58A240082AB11 /* Navigation.app */,
-				3751A16E1BA58A250082AB11 /* CustomSegueDemoTests.xctest */,
+				3751A1551BA58A240082AB11 /* CustomSegueDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3751A1571BA58A240082AB11 /* Navigation */ = {
+		378D0DDD1BA5A13700A8E701 /* CustomSegueDemo */ = {
 			isa = PBXGroup;
 			children = (
-				3751A15C1BA58A240082AB11 /* AppDelegate.h */,
-				3751A15D1BA58A240082AB11 /* AppDelegate.m */,
-				3751A15F1BA58A240082AB11 /* ViewController.h */,
-				3751A1601BA58A240082AB11 /* ViewController.m */,
-				3751A1881BA59B0F0082AB11 /* PresentNavigationModel */,
-				3751A1841BA59ADC0082AB11 /* DismissSegue */,
-				3751A1811BA58E360082AB11 /* GreenViewController.h */,
-				3751A1821BA58E360082AB11 /* GreenViewController.m */,
-				3751A1621BA58A240082AB11 /* Main.storyboard */,
-				3751A1651BA58A240082AB11 /* Images.xcassets */,
-				3751A1671BA58A240082AB11 /* LaunchScreen.xib */,
-				3751A1581BA58A240082AB11 /* Supporting Files */,
+				378D0DDE1BA5A13700A8E701 /* AppDelegate.h */,
+				378D0DDF1BA5A13700A8E701 /* AppDelegate.m */,
+				378D0E001BA5A5EE00A8E701 /* ViewControllers */,
+				378D0DE01BA5A13700A8E701 /* LaunchScreen.xib */,
+				378D0DE21BA5A13700A8E701 /* Main.storyboard */,
+				378D0DEC1BA5A13800A8E701 /* PresentNavigationModel */,
+				378D0DE41BA5A13800A8E701 /* DismissSegue */,
+				378D0DE91BA5A13800A8E701 /* Images.xcassets */,
+				378D0DEA1BA5A13800A8E701 /* Info.plist */,
+				378D0DEB1BA5A13800A8E701 /* main.m */,
 			);
-			path = Navigation;
+			path = CustomSegueDemo;
 			sourceTree = "<group>";
 		};
-		3751A1581BA58A240082AB11 /* Supporting Files */ = {
+		378D0DE41BA5A13800A8E701 /* DismissSegue */ = {
 			isa = PBXGroup;
 			children = (
-				3751A1591BA58A240082AB11 /* Info.plist */,
-				3751A15A1BA58A240082AB11 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3751A1711BA58A250082AB11 /* NavigationTests */ = {
-			isa = PBXGroup;
-			children = (
-				3751A1741BA58A250082AB11 /* NavigationTests.m */,
-				3751A1721BA58A250082AB11 /* Supporting Files */,
-			);
-			path = NavigationTests;
-			sourceTree = "<group>";
-		};
-		3751A1721BA58A250082AB11 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3751A1731BA58A250082AB11 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3751A1841BA59ADC0082AB11 /* DismissSegue */ = {
-			isa = PBXGroup;
-			children = (
-				3751A1851BA59ADC0082AB11 /* DismissSegue.h */,
-				3751A1861BA59ADC0082AB11 /* DismissSegue.m */,
+				378D0DE51BA5A13800A8E701 /* DismissSegue.h */,
+				378D0DE61BA5A13800A8E701 /* DismissSegue.m */,
 			);
 			path = DismissSegue;
 			sourceTree = "<group>";
 		};
-		3751A1881BA59B0F0082AB11 /* PresentNavigationModel */ = {
+		378D0DEC1BA5A13800A8E701 /* PresentNavigationModel */ = {
 			isa = PBXGroup;
 			children = (
-				3751A1891BA59B0F0082AB11 /* PresentNavigationModel.h */,
-				3751A18A1BA59B0F0082AB11 /* PresentNavigationModel.m */,
+				378D0DED1BA5A13800A8E701 /* PresentNavigationModel.h */,
+				378D0DEE1BA5A13800A8E701 /* PresentNavigationModel.m */,
 			);
 			path = PresentNavigationModel;
+			sourceTree = "<group>";
+		};
+		378D0E001BA5A5EE00A8E701 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				378D0DEF1BA5A13800A8E701 /* ViewController.h */,
+				378D0DF01BA5A13800A8E701 /* ViewController.m */,
+				378D0DE71BA5A13800A8E701 /* GreenViewController.h */,
+				378D0DE81BA5A13800A8E701 /* GreenViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,26 +128,8 @@
 			);
 			name = CustomSegueDemo;
 			productName = Navigation;
-			productReference = 3751A1551BA58A240082AB11 /* Navigation.app */;
+			productReference = 3751A1551BA58A240082AB11 /* CustomSegueDemo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		3751A16D1BA58A250082AB11 /* CustomSegueDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3751A17B1BA58A250082AB11 /* Build configuration list for PBXNativeTarget "CustomSegueDemoTests" */;
-			buildPhases = (
-				3751A16A1BA58A250082AB11 /* Sources */,
-				3751A16B1BA58A250082AB11 /* Frameworks */,
-				3751A16C1BA58A250082AB11 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3751A1701BA58A250082AB11 /* PBXTargetDependency */,
-			);
-			name = CustomSegueDemoTests;
-			productName = NavigationTests;
-			productReference = 3751A16E1BA58A250082AB11 /* CustomSegueDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -199,10 +142,6 @@
 				TargetAttributes = {
 					3751A1541BA58A240082AB11 = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					3751A16D1BA58A250082AB11 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 3751A1541BA58A240082AB11;
 					};
 				};
 			};
@@ -220,7 +159,6 @@
 			projectRoot = "";
 			targets = (
 				3751A1541BA58A240082AB11 /* CustomSegueDemo */,
-				3751A16D1BA58A250082AB11 /* CustomSegueDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,16 +168,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3751A1641BA58A240082AB11 /* Main.storyboard in Resources */,
-				3751A1691BA58A240082AB11 /* LaunchScreen.xib in Resources */,
-				3751A1661BA58A240082AB11 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3751A16C1BA58A250082AB11 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				378D0DFA1BA5A13800A8E701 /* Info.plist in Resources */,
+				378D0DF91BA5A13800A8E701 /* Images.xcassets in Resources */,
+				378D0DF51BA5A13800A8E701 /* LaunchScreen.xib in Resources */,
+				378D0DF61BA5A13800A8E701 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,48 +182,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3751A1611BA58A240082AB11 /* ViewController.m in Sources */,
-				3751A18B1BA59B0F0082AB11 /* PresentNavigationModel.m in Sources */,
-				3751A1831BA58E360082AB11 /* GreenViewController.m in Sources */,
-				3751A15E1BA58A240082AB11 /* AppDelegate.m in Sources */,
-				3751A1871BA59ADC0082AB11 /* DismissSegue.m in Sources */,
-				3751A15B1BA58A240082AB11 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3751A16A1BA58A250082AB11 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3751A1751BA58A250082AB11 /* NavigationTests.m in Sources */,
+				378D0DFD1BA5A13800A8E701 /* ViewController.m in Sources */,
+				378D0DF71BA5A13800A8E701 /* DismissSegue.m in Sources */,
+				378D0DFC1BA5A13800A8E701 /* PresentNavigationModel.m in Sources */,
+				378D0DF41BA5A13800A8E701 /* AppDelegate.m in Sources */,
+				378D0DFB1BA5A13800A8E701 /* main.m in Sources */,
+				378D0DF81BA5A13800A8E701 /* GreenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		3751A1701BA58A250082AB11 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3751A1541BA58A240082AB11 /* CustomSegueDemo */;
-			targetProxy = 3751A16F1BA58A250082AB11 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		3751A1621BA58A240082AB11 /* Main.storyboard */ = {
+		378D0DE01BA5A13700A8E701 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3751A1631BA58A240082AB11 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3751A1671BA58A240082AB11 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3751A1681BA58A240082AB11 /* Base */,
+				378D0DE11BA5A13700A8E701 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		378D0DE21BA5A13700A8E701 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378D0DE31BA5A13700A8E701 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -333,7 +249,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -370,7 +286,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -381,7 +297,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Navigation/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CustomSegueDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -391,43 +308,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Navigation/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CustomSegueDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		3751A17C1BA58A250082AB11 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = NavigationTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = CustomSegueDemoTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Navigation.app/Navigation";
-			};
-			name = Debug;
-		};
-		3751A17D1BA58A250082AB11 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = NavigationTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = CustomSegueDemoTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Navigation.app/Navigation";
 			};
 			name = Release;
 		};
@@ -450,14 +334,7 @@
 				3751A17A1BA58A250082AB11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		3751A17B1BA58A250082AB11 /* Build configuration list for PBXNativeTarget "CustomSegueDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3751A17C1BA58A250082AB11 /* Debug */,
-				3751A17D1BA58A250082AB11 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
